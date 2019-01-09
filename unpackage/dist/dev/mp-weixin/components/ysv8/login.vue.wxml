@@ -1,0 +1,53 @@
+<template name="4e86fc42">
+  <view class="_view data-v-122fa687">
+    <view class="_view data-v-122fa687 uni-padding-wrap">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'Ksd-2'}}" data-comkey="{{$k}}" class="_form data-v-122fa687">
+        <view class="_view data-v-122fa687">
+          <view class="_view data-v-122fa687 uni-title">账号</view>
+          <view class="_view data-v-122fa687 uni-list">
+            <view class="_view data-v-122fa687 uni-list-cell">
+              <input class="_input data-v-122fa687 uni-input" name="user" focus placeholder="账号" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-122fa687">
+          <view class="_view data-v-122fa687 uni-title">密码</view>
+          <view class="_view data-v-122fa687 uni-list">
+            <view class="_view data-v-122fa687 uni-list-cell">
+              <input class="_input data-v-122fa687 uni-input" name="pass" password placeholder="密码" />
+            </view>
+          </view>
+        </view>
+        <view wx:if="{{add}}" class="_view data-v-122fa687">
+          <view class="_view data-v-122fa687 uni-title">密码重复</view>
+          <view class="_view data-v-122fa687 uni-list">
+            <view class="_view data-v-122fa687 uni-list-cell">
+              <input class="_input data-v-122fa687 uni-input" name="pass2" password placeholder="密码重复" />
+            </view>
+          </view>
+        </view>
+        <view wx:if="{{add}}" class="_view data-v-122fa687">
+          <view class="_view data-v-122fa687 uni-title">电子邮箱</view>
+          <view class="_view data-v-122fa687 uni-list">
+            <view class="_view data-v-122fa687 uni-list-cell">
+              <input class="_input data-v-122fa687 uni-input" name="email" placeholder="邮箱" value="@qq.com" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-122fa687 uni-btn-v uni-common-mt">
+          <button class="_button data-v-122fa687 btn-submit" type="primary" formType="submit">{{btext}}</button>
+          <view class="_view data-v-122fa687 row c">
+            <view class="_view data-v-122fa687 col">
+              <view class="_view data-v-122fa687 col_6">
+                <view id="mima" class="_view data-v-122fa687 mui-btn mui-btn-block mui-btn-success" bindtap="handleProxy" data-eventid="{{'Oip-0'}}" data-comkey="{{$k}}">动态密码</view>
+              </view>
+              <view class="_view data-v-122fa687 col_6">
+                <view class="_view data-v-122fa687 btn-submit" type="primary" bindtap="handleProxy" data-eventid="{{'scF-1'}}" data-comkey="{{$k}}">{{stext}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

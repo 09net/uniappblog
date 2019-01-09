@@ -1,0 +1,18 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/ysv8/flist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<template name="2f18052d">
+  <view class="_view data-v-b703d076">
+    <template color="#333333" background-color="#FFFFFF" fixed="false" right-icon="scan" bindclick-right="handleProxy" data-eventid="{{'KhW-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3nu-2'],$root, $slotdefault:'data-v-b703d076-default-3nu-2',$slotleft:'data-v-b703d076-left-3nu-2'}}"
+      is="149ba074"></template>
+    <view class="_view data-v-b703d076 list-view">
+      <block wx:key="index2" key="{{index2}}" wx:for="{{data}}" wx:for-index="index2" wx:for-item="newsitem">
+        <template bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'fXG-2-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'6Rg-3-'+index2],$root}}" is="baa04a0c"></template>
+      </block>
+      <template data="{{...$root['0'], ...$root[$kk+'4zG-4'],$root}}" is="26456879"></template>
+    </view>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'Klg-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'93l-5'],$root, $slotdefault:'data-v-b703d076-default-93l-5'}}" is="d788f5b8"></template>
+  </view>
+</template>

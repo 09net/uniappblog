@@ -1,0 +1,35 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="0a54cb72">
+  <view class="_view data-v-b7db9622">
+    <view class="_view data-v-b7db9622 list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'BMp-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-b7db9622 media-list" wx:if="{{data.title}}">
+        <view class="_view data-v-b7db9622 {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
+          <rich-text nodes="{{data.title}}" class="_rich-text data-v-b7db9622 {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}"></rich-text>
+          <view wx:if="{{showImg}}" class="_view data-v-b7db9622 {{[  'image-section',  isImgRight ? 'image-section-right' : '',  isImgLeft ? 'image-section-left' : '']}}">
+            <block wx:if="{{data['vs']!=''}}">
+              <image wx:if="{{data['vs'].indexOf('.mp3')>0}}" src="/static/mp3.png" class="_image data-v-b7db9622 {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+              <image wx:else src="{{bucketcdn+data['vs']+'?x-oss-process=video/snapshot,t_1000,w_150,h_150,f_jpg,m_fast'}}" class="_image data-v-b7db9622 {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+            </block>
+            <block wx:else>
+              <image wx:if="{{data.img}}" src="{{bucketcdn+data['img']+'_180'}}" class="_image data-v-b7db9622 {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+              <image class="_image data-v-b7db9622 image-list3" wx:if="{{data.image_list}}" src="{{source.url}}" wx:key="i" key="{{i}}" wx:for="{{data.image_list}}" wx:for-index="i" wx:for-item="source"></image>
+            </block>
+          </view>
+        </view>
+        <view class="_view data-v-b7db9622 media-foot">
+          <view class="_view data-v-b7db9622 media-info">
+            <text class="_text data-v-b7db9622 info-text">{{data.user}}</text>
+            <text class="_text data-v-b7db9622 info-text">{{data.posts}}条评论</text>
+            <text class="_text data-v-b7db9622 info-text">{{timestr(data.btime)}}</text>
+          </view>
+          <view class="_view data-v-b7db9622 max-close-view">
+            <template wx:if="{{data['mode']=='2'}}" size="30" type="download" data="{{...$root['0'], ...$root[$kk+'bjB-5'],$root}}" is="5d448f6c"></template>
+            <block wx:else>
+              <template wx:if="{{data['mode']=='3'}}" size="30" type="videocam" data="{{...$root['0'], ...$root[$kk+'Go3-3'],$root}}" is="5d448f6c"></template>
+            </block>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

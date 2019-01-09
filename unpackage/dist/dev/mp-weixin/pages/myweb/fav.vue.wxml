@@ -1,0 +1,26 @@
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/ysv8/bbslist.vue.wxml" />
+<template name="000a8c02">
+  <view class="_view data-v-c289bf3e">
+    <view class="_view data-v-c289bf3e uni-padding-wrap uni-common-mt">
+      <template bindclickItem="handleProxy" data-eventid="{{'a0a-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'e2p-0'],$root}}" is="b2176b82"></template>
+    </view>
+    <view class="_view data-v-c289bf3e content">
+      <view hidden="{{!(current === 0)}}" class="_view data-v-c289bf3e">
+        <block wx:key="index2" key="{{index2}}" wx:for="{{datalook}}" wx:for-index="index2" wx:for-item="newsitem">
+          <template bindtap="handleProxy" data-eventid="{{'VJT-1-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'iXJ-1-'+index2],$root}}" is="0a54cb72"></template>
+        </block>
+      </view>
+      <view hidden="{{!(current === 1)}}" class="_view data-v-c289bf3e">
+        <block wx:key="index2" key="{{index2}}" wx:for="{{datafav}}" wx:for-index="index2" wx:for-item="newsitem">
+          <template bindtap="handleProxy" data-eventid="{{'ZuH-2-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Yqy-2-'+index2],$root}}" is="0a54cb72"></template>
+        </block>
+      </view>
+      <view hidden="{{!(current === 2)}}" class="_view data-v-c289bf3e">
+        <block wx:key="index2" key="{{index2}}" wx:for="{{datacom}}" wx:for-index="index2" wx:for-item="newsitem">
+          <template bindtap="handleProxy" data-eventid="{{'aD0-3-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'EuC-3-'+index2],$root}}" is="0a54cb72"></template>
+        </block>
+      </view>
+    </view>
+  </view>
+</template>

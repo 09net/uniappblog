@@ -1,0 +1,24 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="25ff5bb8">
+  <view class="_view data-v-b753d3e0">
+    <view class="_view data-v-b753d3e0 uni-list">
+      <view class="_view data-v-b753d3e0 uni-list-cell" hover-class="uni-list-cell-hover" wx:if="{{data.user}}">
+        <view class="_view data-v-b753d3e0 uni-media-list">
+          <view class="_view data-v-b753d3e0 uni-media-list-logo">
+            <image src="{{bucketcdn+data.avatar+'_80'}}" class="_image data-v-b753d3e0"></image>
+          </view>
+          <view class="_view data-v-b753d3e0 uni-media-list-body">
+            <text class="_text data-v-b753d3e0 uni-media-list-text-top">{{data.user}}</text>
+            <view class="_view data-v-b753d3e0 uni-media-list-text-bottom uni-ellipsis">{{timestr(data.atime)}}
+              <view class="_view data-v-b753d3e0 uni-right">
+                <template size="20" type="chatboxes-filled" data="{{...$root['0'], ...$root[$kk+'7ZY-0'],$root}}" is="5d448f6c"></template>{{data.posts}}</view>
+            </view>
+            <video class="_video data-v-b753d3e0 w100" wx:if="{{data.vs}}" id="myVideo" src="{{bucketcdn+data['vs']}}" binderror="handleProxy" controls data-eventid="{{'wXr-0'}}" data-comkey="{{$k}}"></video>
+            <image class="_image data-v-b753d3e0 image-list3" wx:if="{{source}}" src="{{imgcdn+source}}" wx:key="i" key="{{i}}" wx:for="{{data.imglist}}" wx:for-index="i" wx:for-item="source"></image>
+            <rich-text nodes="{{data.content}}" class="_rich-text data-v-b753d3e0"></rich-text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,30 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="71a91462">
+  <view class="_view data-v-83acb5ec">
+    <view class="_view data-v-83acb5ec list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'psh-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-83acb5ec media-list" wx:if="{{data.title}}">
+        <view class="_view data-v-83acb5ec {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
+          <text class="_text data-v-83acb5ec {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}">{{data.title}}</text>
+          <view wx:if="{{showImg}}" class="_view data-v-83acb5ec {{[  'image-section',  isImgRight ? 'image-section-right' : '',  isImgLeft ? 'image-section-left' : '']}}">
+            <image wx:if="{{data.img}}" src="{{bucketcdn+data['img']+'_180'}}" class="_image data-v-83acb5ec {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+            <image class="_image data-v-83acb5ec image-list3" wx:if="{{data.image_list}}" src="{{source.url}}" wx:key="i" key="{{i}}" wx:for="{{data.image_list}}" wx:for-index="i" wx:for-item="source"></image>
+          </view>
+        </view>
+        <view class="_view data-v-83acb5ec media-foot">
+          <view class="_view data-v-83acb5ec media-info">
+            <text class="_text data-v-83acb5ec info-text">{{data.user}}</text>
+            <text class="_text data-v-83acb5ec info-text">{{data.posts}}条评论</text>
+            <text class="_text data-v-83acb5ec info-text">{{timestr(data.btime)}}</text>
+          </view>
+          <view class="_view data-v-83acb5ec max-close-view">
+            <template wx:if="{{data['posts']==0}}" size="30" type="help-filled" data="{{...$root['0'], ...$root[$kk+'Ufa-3'],$root}}" is="5d448f6c"></template>
+            <block wx:else>
+              <template wx:if="{{data['etime']>0}}" size="30" type="info-filled" data="{{...$root['0'], ...$root[$kk+'IGL-1'],$root}}" is="5d448f6c"></template>
+              <template wx:else size="30" type="checkbox-filled" data="{{...$root['0'], ...$root[$kk+'4Fe-0'],$root}}" is="5d448f6c"></template>
+            </block>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

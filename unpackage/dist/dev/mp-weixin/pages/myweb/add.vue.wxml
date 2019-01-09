@@ -1,0 +1,47 @@
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="08c716f6">
+  <view class="_view data-v-cb464a32">
+    <view class="_view data-v-cb464a32 postarea">
+      <form bindsubmit="handleProxy" data-eventid="{{'cU1-3'}}" data-comkey="{{$k}}" class="_form data-v-cb464a32">
+        <input class="_input data-v-cb464a32 uni-input" maxlength="60" name="title" placeholder="标题" />
+        <textarea placeholder-style="color:#F76260" name="content" placeholder="请输入评论内容" maxlength="65535" auto-height class="_textarea data-v-cb464a32 posttextarea" value="{{text}}" />
+        <view class="_view data-v-cb464a32 row bj">
+          <view class="_view data-v-cb464a32 col">
+            <view class="_view data-v-cb464a32 col_3">
+              <button type="default" bindtap="handleProxy" data-eventid="{{'TtJ-0'}}" data-comkey="{{$k}}" class="_button data-v-cb464a32">{{fidtext}}</button>
+            </view>
+            <view class="_view data-v-cb464a32 col_3">
+              <button type="primary" formType="submit" class="_button data-v-cb464a32">提交</button>
+            </view>
+            <view class="_view data-v-cb464a32 col_3 padding-top">
+              <template size="30" type="image" bindtap="handleProxy" data-eventid="{{'uRJ-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'mhK-0'],$root}}" is="5d448f6c"></template>
+            </view>
+            <view class="_view data-v-cb464a32 col_3 padding-top">
+              <template size="30" type="videocam" bindtap="handleProxy" data-eventid="{{'UAJ-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'21i-1'],$root}}" is="5d448f6c"></template>
+            </view>
+          </view>
+        </view>
+      </form>
+    </view>
+    <view class="_view data-v-cb464a32 uni-list list-pd">
+      <view class="_view data-v-cb464a32 uni-list-cell cell-pd">
+        <view class="_view data-v-cb464a32 uni-uploader">
+          <view class="_view data-v-cb464a32 uni-uploader-body">
+            <view class="_view data-v-cb464a32 uni-uploader__files">
+              <block wx:key="index" key="{{index}}" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="image">
+                <view class="_view data-v-cb464a32 uni-uploader__file">
+                  <image class="_image data-v-cb464a32 uni-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'kbB-4-'+index}}" data-comkey="{{$k}}"></image>
+                </view>
+              </block>
+              <view class="_view data-v-cb464a32 uni-uploader__file" wx:if="{{src}}">
+                <video src="{{src}}" class="_video data-v-cb464a32 video"></video>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'UsU-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Ir3-2'],$root}}" is="edbcca3a"></template>
+  </view>
+</template>

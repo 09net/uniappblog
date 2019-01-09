@@ -1,0 +1,5 @@
+@import "../../common/vendor.wxss";
+
+.uni-media-list-logo2 {
+  padding-right: 40rpx;
+}

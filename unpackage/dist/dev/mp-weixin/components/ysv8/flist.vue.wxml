@@ -1,0 +1,25 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="baa04a0c">
+  <view class="_view data-v-47ba00bc">
+    <view class="_view data-v-47ba00bc list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'i91-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-47ba00bc media-list" wx:if="{{data.name}}">
+        <view class="_view data-v-47ba00bc {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
+          <rich-text nodes="{{data.name}}" class="_rich-text data-v-47ba00bc {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}"></rich-text>
+          <view wx:if="{{showImg}}" class="_view data-v-47ba00bc {{[  'image-section',  isImgRight ? 'image-section-right' : '',  isImgLeft ? 'image-section-left' : '']}}">
+            <image wx:if="{{data.img}}" src="{{bucketcdn+data['img']+'_180'}}" class="_image data-v-47ba00bc {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+          </view>
+        </view>
+        <view class="_view data-v-47ba00bc media-foot">
+          <view class="_view data-v-47ba00bc media-info">
+            <text class="_text data-v-47ba00bc info-text">{{data.user}}</text>
+            <text class="_text data-v-47ba00bc info-text">内容:{{data.threads}}</text>
+            <text class="_text data-v-47ba00bc info-text">{{timestr(data.btime)}}</text>
+          </view>
+          <view class="_view data-v-47ba00bc max-close-view">
+            <template size="30" type="star-filled" data="{{...$root['0'], ...$root[$kk+'vma-1'],$root}}" is="5d448f6c"></template>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

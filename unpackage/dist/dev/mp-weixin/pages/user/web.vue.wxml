@@ -1,0 +1,9 @@
+<template name="add3cd4a">
+  <view class="_view data-v-5d41e5f3">
+    <view wx:if="{{zurl!==false}}" class="_view data-v-5d41e5f3">如果页面无法下载请用浏览器打开下方链接
+      <input class="_input data-v-5d41e5f3 uni-input" type="text" placeholder="请输入剪贴板内容" value="{{zurl}}" />
+      <button type="primary" bindtap="handleProxy" data-eventid="{{'MUj-0'}}" data-comkey="{{$k}}" class="_button data-v-5d41e5f3">复制</button>
+    </view>
+    <web-view wx:if="{{show}}" src="{{url}}" class="_web-view data-v-5d41e5f3"></web-view>
+  </view>
+</template>

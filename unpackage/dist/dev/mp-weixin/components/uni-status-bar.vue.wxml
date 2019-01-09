@@ -1,0 +1,7 @@
+<import src="/components/slots" />
+<template name="4a247a2a">
+  <view class="_view data-v-492a76f4 uni-status-bar" style=" {{style}}">
+    <template name="default"></template>
+    <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
+  </view>
+</template>

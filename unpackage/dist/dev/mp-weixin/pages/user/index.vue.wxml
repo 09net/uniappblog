@@ -1,0 +1,89 @@
+<import src="/components/uni-badge.vue.wxml" />
+<import src="/components/ysv8/login.vue.wxml" />
+<template name="0ec4e819">
+  <view class="_view data-v-672feeb1">
+    <block wx:if="{{islogin}}">
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-672feeb1 uni-media-list">
+            <view class="_view data-v-672feeb1 uni-media-list-logo">
+              <image wx:if="{{userdata['avatar']}}" src="{{bucketcdn+userdata['avatar']+'_80'}}" class="_image data-v-672feeb1"></image>
+            </view>
+            <view class="_view data-v-672feeb1 uni-media-list-body">
+              <view class="_view data-v-672feeb1 uni-media-list-text-top">{{userdata.user}}</view>
+              <view class="_view data-v-672feeb1 uni-media-list-text-bottom uni-ellipsis">{{userdata.ps}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell">
+          <view wx:if="{{userdata['website']}}" class="_view data-v-672feeb1 uni-media-list" bindtap="handleProxy" data-eventid="{{'wEl-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-672feeb1 uni-media-list-logo2"> 我的网站 </view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template type="danger" data="{{...$root['0'], ...$root[$kk+'W2A-0'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+          <view wx:else class="_view data-v-672feeb1 uni-media-list" bindtap="handleProxy" data-eventid="{{'kg3-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-672feeb1 uni-media-list-logo"> 创建网站 </view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template text="G100" type="danger" data="{{...$root['0'], ...$root[$kk+'uwU-1'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell">
+          <view class="_view data-v-672feeb1 uni-media-list">
+            <view class="_view data-v-672feeb1 uni-media-list-logo">ID</view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template type="danger" data="{{...$root['0'], ...$root[$kk+'Rxu-2'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell">
+          <view class="_view data-v-672feeb1 uni-media-list">
+            <view class="_view data-v-672feeb1 uni-media-list-logo">金币</view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template type="danger" data="{{...$root['0'], ...$root[$kk+'QRb-3'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell">
+          <view class="_view data-v-672feeb1 uni-media-list">
+            <view class="_view data-v-672feeb1 uni-media-list-logo">积分</view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template type="danger" data="{{...$root['0'], ...$root[$kk+'9hA-4'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell">
+          <view class="_view data-v-672feeb1 uni-media-list">
+            <view class="_view data-v-672feeb1 uni-media-list-logo">等级</view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template type="danger" data="{{...$root['0'], ...$root[$kk+'Dtd-5'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-672feeb1 uni-list">
+        <view class="_view data-v-672feeb1 uni-list-cell">
+          <view class="_view data-v-672feeb1 uni-media-list">
+            <view class="_view data-v-672feeb1 uni-media-list-logo">邮箱</view>
+            <view class="_view data-v-672feeb1 uni-media-list-body r">
+              <template type="danger" data="{{...$root['0'], ...$root[$kk+'d8b-6'],$root}}" is="1ebbdb40"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+      <button class="_button data-v-672feeb1 btn-submit" type="primary" bindtap="handleProxy" data-eventid="{{'68W-2'}}" data-comkey="{{$k}}">退出</button>
+    </block>
+    <template wx:else bindChanged="handleProxy" ref="login" data-eventid="{{'k3s-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0rT-7'],$root}}" is="4e86fc42"></template>
+  </view>
+</template>

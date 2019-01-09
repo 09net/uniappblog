@@ -1,0 +1,14 @@
+<template name="0e6b6bf9">
+  <view class="_view data-v-47de90a1">
+    <view class="_view data-v-47de90a1 list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'IH0-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-47de90a1 media-list" wx:if="{{data.title}}">
+        <view class="_view data-v-47de90a1 {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
+          <rich-text nodes="{{data.title}}" class="_rich-text data-v-47de90a1 {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}"></rich-text>
+          <image wx:if="{{data.img}}" src="{{bucketcdn+data['img']+'_180'}}" class="_image data-v-47de90a1 {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+          <image class="_image data-v-47de90a1 image-list3" wx:if="{{data.image_list}}" src="{{source.url}}" wx:key="i" key="{{i}}" wx:for="{{data.image_list}}" wx:for-index="i" wx:for-item="source"></image>
+        </view>
+      </view>
+      <view class="_view data-v-47de90a1 media-foot"></view>
+    </view>
+  </view>
+</template>

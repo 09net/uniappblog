@@ -1,0 +1,14 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/ysv8/flist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<template name="1c2594ca">
+  <view class="_view data-v-53302bac">
+    <template color="#333333" background-color="#FFFFFF" fixed="false" data="{{...$root['0'], ...$root[$kk+'vvz-0'],$root}}" is="149ba074"></template>
+    <view class="_view data-v-53302bac list-view">
+      <block wx:key="index2" key="{{index2}}" wx:for="{{data}}" wx:for-index="index2" wx:for-item="newsitem">
+        <template bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'cXw-0-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Gvf-1-'+index2],$root}}" is="baa04a0c"></template>
+      </block>
+      <template data="{{...$root['0'], ...$root[$kk+'aLX-2'],$root}}" is="26456879"></template>
+    </view>
+  </view>
+</template>

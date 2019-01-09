@@ -1,0 +1,11 @@
+<template name="285cc5e4">
+  <view class="_view data-v-2544c1b6">
+    <view class="_view data-v-2544c1b6 list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'Zmd-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-2544c1b6 media-list" wx:if="{{data.title}}">
+        <view class="_view data-v-2544c1b6">
+          <text class="_text data-v-2544c1b6 uni-icon uni-icon-download" style="color:#FF0000;font-size:40rpx">视频下载(G200)</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

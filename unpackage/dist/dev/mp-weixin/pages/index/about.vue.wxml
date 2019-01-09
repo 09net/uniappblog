@@ -1,0 +1,49 @@
+<template name="7158149b">
+  <view class="_view data-v-61986a7d">
+    <view class="_view data-v-61986a7d uni-list">
+      <view class="_view data-v-61986a7d uni-list-cell" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-61986a7d uni-media-list">
+          <view class="_view data-v-61986a7d uni-media-list-logo">
+            <image src="../../static/logo.png" class="_image data-v-61986a7d"></image>
+          </view>
+          <view class="_view data-v-61986a7d uni-media-list-body">
+            <view class="_view data-v-61986a7d uni-media-list-text-top">来源：YSV8简单网站</view>
+            <view class="_view data-v-61986a7d uni-media-list-text-bottom uni-ellipsis">程序支持：娄底零久网络科技有限公司出品</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-61986a7d uni-list">
+      <view class="_view data-v-61986a7d uni-list-cell">
+        <view class="_view data-v-61986a7d uni-media-list">
+          <view class="_view data-v-61986a7d uni-media-list-logo">宗旨</view>
+          <view class="_view data-v-61986a7d uni-media-list-body r">知识也是商品，互动应有回报</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-61986a7d uni-list">
+      <view class="_view data-v-61986a7d uni-list-cell">
+        <view class="_view data-v-61986a7d uni-media-list">
+          <view class="_view data-v-61986a7d uni-media-list-logo">创建</view>
+          <view class="_view data-v-61986a7d uni-media-list-body r">https://zh.ysv8.com/website</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-61986a7d uni-list">
+      <view class="_view data-v-61986a7d uni-list-cell">
+        <view class="_view data-v-61986a7d uni-media-list">
+          <view class="_view data-v-61986a7d uni-media-list-logo">邮箱</view>
+          <view class="_view data-v-61986a7d uni-media-list-body r">719048503@qq.com</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-61986a7d uni-list">
+      <view class="_view data-v-61986a7d uni-list-cell">
+        <view class="_view data-v-61986a7d uni-media-list">
+          <view class="_view data-v-61986a7d uni-media-list-logo">合作电话</view>
+          <view class="_view data-v-61986a7d uni-media-list-body r">15973827429</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

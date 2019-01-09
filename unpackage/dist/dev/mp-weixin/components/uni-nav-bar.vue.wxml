@@ -1,0 +1,29 @@
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<template name="149ba074">
+  <view class="_view data-v-16d70c0b uni-navbar {{[isFixed ? 'uni-navbar-fixed' : '', hasShadow ? 'uni-navbar-shadow' : '']}}" style=" {{('background-color:' + backgroundColor + ';')}}">
+    <template wx:if="{{insertStatusBar}}" data="{{...$root['0'], ...$root[$kk+'86Q-0'],$root}}" is="4a247a2a"></template>
+    <view class="_view data-v-16d70c0b uni-navbar-header" style=" {{('color:' + color + ';')}}">
+      <view class="_view data-v-16d70c0b uni-navbar-header-btns c" bindtap="handleProxy" data-eventid="{{'l6m-0'}}" data-comkey="{{$k}}">
+        <view wx:if="{{leftIcon.length}}" class="_view data-v-16d70c0b">
+          <template size="24" data="{{...$root['0'], ...$root[$kk+'KgK-1'],$root}}" is="5d448f6c"></template>
+        </view>
+        <view wx:if="{{leftText.length}}" class="_view data-v-16d70c0b uni-navbar-btn-text {{[!leftIcon.length ? 'uni-navbar-btn-icon-left' : '']}}">{{leftText}}</view>
+        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'xRC-2'],$root}}" is="5d448f6c"></template>
+      </view>
+      <view class="_view data-v-16d70c0b uni-navbar-container">
+        <view wx:if="{{title.length}}" class="_view data-v-16d70c0b uni-navbar-container-title">{{title}}</view>
+        <view class="_view data-v-16d70c0b input-view">
+          <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-16d70c0b input" type="text" placeholder="输入搜索关键词" data-eventid="{{'bld-1'}}" data-comkey="{{$k}}" />
+        </view>
+      </view>
+      <view class="_view data-v-16d70c0b uni-navbar-header-btns c" bindtap="handleProxy" data-eventid="{{'0Gk-2'}}" data-comkey="{{$k}}">
+        <view wx:if="{{rightIcon.length}}" class="_view data-v-16d70c0b">
+          <template size="24" data="{{...$root['0'], ...$root[$kk+'vPA-3'],$root}}" is="5d448f6c"></template>
+        </view>
+        <view wx:if="{{rightText.length&&!rightIcon.length}}" class="_view data-v-16d70c0b uni-navbar-btn-text">{{rightText}}</view>
+        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'rDe-4'],$root}}" is="5d448f6c"></template>
+      </view>
+    </view>
+  </view>
+</template>

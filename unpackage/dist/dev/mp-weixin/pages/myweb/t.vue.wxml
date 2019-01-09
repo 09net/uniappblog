@@ -1,0 +1,49 @@
+<import src="/components/ysv8/vdown.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
+<import src="/components/ysv8/filelist.vue.wxml" />
+<import src="/components/ysv8/postlist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/ysv8/post.vue.wxml" />
+<template name="1ceaddd8">
+  <view class="_view data-v-53f574ba">
+    <view class="_view data-v-53f574ba uni-padding-wrap">
+      <block wx:if="{{vs}}">
+        <video class="_video data-v-53f574ba w100" id="myVideo" src="{{bucketcdn+vs}}" binderror="handleProxy" autoplay="{{true}}" controls data-eventid="{{'BTI-0'}}" data-comkey="{{$k}}"></video>
+        <template data="{{...$root['0'], ...$root[$kk+'b7S-0'],$root}}" is="285cc5e4"></template>
+      </block>
+      <view class="_view data-v-53f574ba h1">{{thread.title}}</view>
+      <view class="_view data-v-53f574ba uni-list">
+        <view class="_view data-v-53f574ba uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-53f574ba uni-media-list" bindtap="handleProxy" data-eventid="{{'x3f-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-53f574ba uni-media-list-logo">
+              <image wx:if="{{thread['avatar']}}" src="{{bucketcdn+thread['avatar']+'_80'}}" class="_image data-v-53f574ba"></image>
+            </view>
+            <view class="_view data-v-53f574ba uni-media-list-body">
+              <view class="_view data-v-53f574ba uni-media-list-text-top">{{thread.user}}</view>
+              <view class="_view data-v-53f574ba uni-media-list-text-bottom uni-ellipsis">{{timestr(thread.atime)}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-53f574ba article-content">
+        <template data="{{...$root['0'], ...$root[$kk+'jdw-2'],$root}}" is="4c6dc8e0"></template>
+      </view>
+      <view class="_view data-v-53f574ba article-files" wx:if="{{files}}">
+        <block wx:key="index2" key="{{index2}}" wx:for="{{files}}" wx:for-index="index2" wx:for-item="newsitem">
+          <template data="{{...$root['0'], ...$root[$kk+'PcA-3-'+index2],$root}}" is="04a3c6d8"></template>
+        </block>
+      </view>
+      <view class="_view data-v-53f574ba uni-comment">
+        <view class="_view data-v-53f574ba">
+          <view class="_view data-v-53f574ba list-view">
+            <block wx:key="index2" key="{{index2}}" wx:for="{{postlist}}" wx:for-index="index2" wx:for-item="newsitem">
+              <template bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'f6E-2-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'KmH-4-'+index2],$root}}" is="25ff5bb8"></template>
+            </block>
+          </view>
+          <template data="{{...$root['0'], ...$root[$kk+'tZ4-5'],$root}}" is="26456879"></template>
+        </view>
+      </view>
+    </view>
+    <template data="{{...$root['0'], ...$root[$kk+'o5l-6'],$root}}" is="05ce3b1a"></template>
+  </view>
+</template>

@@ -1,0 +1,63 @@
+<import src="/components/ysv8/vdown.vue.wxml" />
+<import src="/components/ysv8/filelist.vue.wxml" />
+<import src="/components/ysv8/elist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/ysv8/post.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
+<template name="1c177d49">
+  <view class="_view data-v-5322142b">
+    <block wx:if="{{ebook===false}}">
+      <view class="_view data-v-5322142b uni-padding-wrap">
+        <block wx:if="{{vs}}">
+          <video class="_video data-v-5322142b w100" id="myVideo" src="{{bucketcdn+vs}}" binderror="handleProxy" autoplay="{{true}}" controls data-eventid="{{'9Rn-0'}}" data-comkey="{{$k}}"></video>
+          <template data="{{...$root['0'], ...$root[$kk+'m5c-0'],$root}}" is="285cc5e4"></template>
+        </block>
+        <view class="_view data-v-5322142b uni-list">
+          <view class="_view data-v-5322142b uni-list-cell" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-5322142b uni-media-list" bindtap="handleProxy" data-eventid="{{'ELx-1'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-5322142b uni-media-list-logo">
+                <image wx:if="{{thread['img']}}" src="{{bucketcdn+thread['img']+'_80'}}" class="_image data-v-5322142b"></image>
+              </view>
+              <view class="_view data-v-5322142b uni-media-list-body">
+                <view class="_view data-v-5322142b uni-media-list-text-top">{{thread.title}}</view>
+                <view class="_view data-v-5322142b uni-media-list-text-bottom uni-ellipsis">{{timestr(thread.atime)}}</view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-5322142b article-content"> {{thread.des}} </view>
+        </view>
+        <view class="_view data-v-5322142b article-files" wx:if="{{files}}">
+          <block wx:key="index2" key="{{index2}}" wx:for="{{files}}" wx:for-index="index2" wx:for-item="newsitem">
+            <template data="{{...$root['0'], ...$root[$kk+'2HJ-2-'+index2],$root}}" is="04a3c6d8"></template>
+          </block>
+        </view>
+        <view class="_view data-v-5322142b uni-comment">
+          <view class="_view data-v-5322142b">
+            <view class="_view data-v-5322142b list-view">
+              <block wx:key="index2" key="{{index2}}" wx:for="{{postlist}}" wx:for-index="index2" wx:for-item="newsitem">
+                <template bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'fCm-2-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'yDa-3-'+index2],$root}}" is="0e6b6bf9"></template>
+              </block>
+            </view>
+            <template data="{{...$root['0'], ...$root[$kk+'nGS-4'],$root}}" is="26456879"></template>
+          </view>
+        </view>
+      </view>
+      <template data="{{...$root['0'], ...$root[$kk+'2NU-5'],$root}}" is="05ce3b1a"></template>
+    </block>
+    <block wx:else>
+      <view class="_view data-v-5322142b h1 c">{{ebook.title}}</view>
+      <view class="_view data-v-5322142b article-content">
+        <template data="{{...$root['0'], ...$root[$kk+'rSA-6'],$root}}" is="4c6dc8e0"></template>
+      </view>
+      <view class="_view data-v-5322142b foot">
+        <view class="_view data-v-5322142b row c">
+          <view class="_view data-v-5322142b col">
+            <view class="_view data-v-5322142b col_4" bindtap="handleProxy" data-eventid="{{'oED-3'}}" data-comkey="{{$k}}">上一页</view>
+            <view class="_view data-v-5322142b col_4" bindtap="handleProxy" data-eventid="{{'rKm-4'}}" data-comkey="{{$k}}"> 目录</view>
+            <view class="_view data-v-5322142b col_4" bindtap="handleProxy" data-eventid="{{'qIi-5'}}" data-comkey="{{$k}}"> 下一页 </view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>

@@ -1,0 +1,54 @@
+<import src="/components/ysv8/bbslist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<template name="d5d13d94">
+  <view class="_view data-v-f55091d0 uni-tab-bar">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-f55091d0 uni-swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{'div'+tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'Mno-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-f55091d0 {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+    </scroll-view>
+    <swiper current="{{tabIndex}}" class="_swiper data-v-f55091d0 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'9vs-3'}}" data-comkey="{{$k}}">
+      <swiper-item wx:key="index1" key="{{index1}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab" class="_swiper-item data-v-f55091d0">
+        <scroll-view class="_scroll-view data-v-f55091d0 list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'0vF-2-'+index1}}" data-comkey="{{$k}}">
+          <block wx:key="index2" key="{{index2}}" wx:for="{{tab.data}}" wx:for-index="index2" wx:for-item="newsitem">
+            <template bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'VSl-1-'+index1+'-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'YKA-0-'+index1+'-'+index2],$root}}" is="0a54cb72"></template>
+          </block>
+          <view class="_view data-v-f55091d0 uni-tab-bar-loading">
+            <template data="{{...$root['0'], ...$root[$kk+'IUj-1-'+index1],$root}}" is="26456879"></template>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'8CH-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LZs-3'],$root}}" is="d788f5b8"></template>
+    <view class="_view data-v-f55091d0 foot">
+      <view class="_view data-v-f55091d0 row">
+        <view class="_view data-v-f55091d0 col">
+          <view class="_view data-v-f55091d0 col_20" bindtap="handleProxy" data-eventid="{{'aVT-5'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-f55091d0 uni-tabbar__bd">
+              <view class="_view data-v-f55091d0 uni-tabbar__label {{mode == '0' ? 'tar_active' : 'tar_no'}}"> 综合 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f55091d0 col_20" bindtap="handleProxy" data-eventid="{{'RmL-6'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-f55091d0 uni-tabbar__bd">
+              <view class="_view data-v-f55091d0 uni-tabbar__label {{mode == '1' ? 'tar_active' : 'tar_no'}}"> 图片 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f55091d0 col_20" bindtap="handleProxy" data-eventid="{{'8Ny-7'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-f55091d0 uni-tabbar__bd">
+              <view class="_view data-v-f55091d0 uni-tabbar__label {{mode == '2' ? 'tar_active' : 'tar_no'}}"> 附件 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f55091d0 col_20" bindtap="handleProxy" data-eventid="{{'SWT-8'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-f55091d0 uni-tabbar__bd">
+              <view class="_view data-v-f55091d0 uni-tabbar__label {{mode == '3' ? 'tar_active' : 'tar_no'}}"> 视频 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f55091d0 col_20" bindtap="handleProxy" data-eventid="{{'IQ3-9'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-f55091d0 uni-tabbar__bd">
+              <view class="_view data-v-f55091d0 uni-tabbar__label {{mode == '3' ? 'tar_active' : 'tar_no'}}"> 更多 </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

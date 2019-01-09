@@ -1,0 +1,121 @@
+<import src="/components/ysv8/bbslist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/ysv8/vdown.vue.wxml" />
+<import src="/components/ysv8/filelist.vue.wxml" />
+<import src="/components/ysv8/elist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/ysv8/post.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/ysv8/bbslist.vue.wxml" />
+<import src="/components/ysv8/ebooklist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/ysv8/vdown.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
+<import src="/components/ysv8/filelist.vue.wxml" />
+<import src="/components/ysv8/postlist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/ysv8/post.vue.wxml" />
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/ysv8/flist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/ysv8/bbslist.vue.wxml" />
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/ysv8/flist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<import src="/components/uni-badge.vue.wxml" />
+<import src="/components/ysv8/login.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate0.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate1.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate2.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate3.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate4.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate5.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate6.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate7.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate8.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate9.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate10.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseTemplate11.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<template name="data-v-b703d076-default-3nu-2">
+  <view class="_view data-v-b703d076 input-view">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'uo9-1'],$root}}" is="5d448f6c"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-b703d076 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'XZ0-0'}}" data-comkey="{{$k}}" />
+  </view>
+</template>
+<template name="data-v-b703d076-left-3nu-2">
+  <view class="_view data-v-b703d076 city">
+    <text class="_text data-v-b703d076">综合</text>
+    <template type="arrowdown" color="#333333" size="22" data="{{...$root['0'], ...$root[$kk+'RcW-0'],$root}}" is="5d448f6c"></template>
+  </view>
+</template>
+<template name="data-v-b703d076-default-93l-5">
+  <view style="padding:30rpx;" class="_view data-v-b703d076">
+    <view class="_view data-v-b703d076 uni-common-mt">
+      <button class="_button data-v-b703d076 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'2e6-3'}}" data-comkey="{{$k}}">关闭</button>
+    </view>
+    <view class="_view data-v-b703d076 uni-list uni-common-mt">
+      <view class="_view data-v-b703d076 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-b703d076 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'MY6-4'}}" data-comkey="{{$k}}"> 个人中心 </view>
+      </view>
+      <view class="_view data-v-b703d076 uni-list-cell" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-b703d076 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'WIw-5'}}" data-comkey="{{$k}}"> 收藏 </view>
+      </view>
+      <view class="_view data-v-b703d076 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-b703d076 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'D91-6'}}" data-comkey="{{$k}}"> 历史 </view>
+      </view>
+      <view class="_view data-v-b703d076 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-b703d076 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'Jqk-7'}}" data-comkey="{{$k}}"> 搜索 </view>
+      </view>
+      <view class="_view data-v-b703d076 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-b703d076 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'PyY-8'}}" data-comkey="{{$k}}"> 分享 </view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-b6e03d1c-default-kSU-4">赏</template>

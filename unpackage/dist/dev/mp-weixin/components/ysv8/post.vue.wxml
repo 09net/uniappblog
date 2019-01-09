@@ -1,0 +1,65 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="05ce3b1a">
+  <view class="_view data-v-b6e03d1c">
+    <view class="_view data-v-b6e03d1c foot">
+      <view class="_view data-v-b6e03d1c row" wx:if="{{postno}}">
+        <view class="_view data-v-b6e03d1c col">
+          <view class="_view data-v-b6e03d1c col_3">
+            <template size="40" type="chatboxes-filled" bindtap="handleProxy" data-eventid="{{'wLJ-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4gJ-0'],$root}}" is="5d448f6c"></template>
+          </view>
+          <view class="_view data-v-b6e03d1c col_3">
+            <block wx:if="{{favbool}}">
+              <template size="40" type="star-filled" bindtap="handleProxy" data-eventid="{{'vxs-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'EUF-1'],$root}}" is="5d448f6c"></template>
+            </block>
+            <template wx:else size="40" type="star-filled" bindtap="handleProxy" data-eventid="{{'RTY-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Imt-2'],$root}}" is="5d448f6c"></template>
+          </view>
+          <view class="_view data-v-b6e03d1c col_3">
+            <template size="40" type="starhalf" bindtap="handleProxy" data-eventid="{{'vWy-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'kSU-4'],$root, $slotdefault:'data-v-b6e03d1c-default-kSU-4'}}" is="5d448f6c"></template>
+          </view>
+          <view class="_view data-v-b6e03d1c col_3">
+            <template size="40" type="more-filled" bindtap="handleProxy" data-eventid="{{'YpU-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'qAA-5'],$root}}" is="5d448f6c"></template>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-b6e03d1c postarea" wx:else>
+        <form bindsubmit="handleProxy" data-eventid="{{'BOj-8'}}" data-comkey="{{$k}}" class="_form data-v-b6e03d1c">
+          <textarea placeholder-style="color:#F76260" name="content" placeholder="请输入评论内容" auto-height class="_textarea data-v-b6e03d1c posttextarea" value="{{text}}" />
+          <view class="_view data-v-b6e03d1c row bj">
+            <view class="_view data-v-b6e03d1c col">
+              <view class="_view data-v-b6e03d1c col_3">
+                <button type="primary" formType="submit" class="_button data-v-b6e03d1c">提交</button>
+              </view>
+              <view class="_view data-v-b6e03d1c col_3 padding-top">
+                <template size="30" type="image" bindtap="handleProxy" data-eventid="{{'MOL-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'XDL-6'],$root}}" is="5d448f6c"></template>
+              </view>
+              <view class="_view data-v-b6e03d1c col_3 padding-top">
+                <template size="30" type="videocam" bindtap="handleProxy" data-eventid="{{'4lU-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'jcb-7'],$root}}" is="5d448f6c"></template>
+              </view>
+              <view class="_view data-v-b6e03d1c col_3 padding-top">
+                <template size="30" type="close" bindtap="handleProxy" data-eventid="{{'1sL-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'0q7-8'],$root}}" is="5d448f6c"></template>
+              </view>
+            </view>
+          </view>
+        </form>
+        <view class="_view data-v-b6e03d1c uni-list list-pd">
+          <view class="_view data-v-b6e03d1c uni-list-cell cell-pd">
+            <view class="_view data-v-b6e03d1c uni-uploader">
+              <view class="_view data-v-b6e03d1c uni-uploader-body">
+                <view class="_view data-v-b6e03d1c uni-uploader__files">
+                  <block wx:key="index" key="{{index}}" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="image">
+                    <view class="_view data-v-b6e03d1c uni-uploader__file">
+                      <image class="_image data-v-b6e03d1c uni-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'3q9-9-'+index}}" data-comkey="{{$k}}"></image>
+                    </view>
+                  </block>
+                  <view class="_view data-v-b6e03d1c uni-uploader__file" wx:if="{{src}}">
+                    <video src="{{src}}" class="_video data-v-b6e03d1c video"></video>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

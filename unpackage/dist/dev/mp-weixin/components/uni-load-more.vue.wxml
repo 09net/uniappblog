@@ -1,0 +1,25 @@
+<template name="26456879">
+  <view class="_view data-v-dcb77104 load-more">
+    <view class="_view data-v-dcb77104 loading-img" hidden="{{!(loadingType === 1 && showImage)}}">
+      <view class="_view data-v-dcb77104 load1">
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+      </view>
+      <view class="_view data-v-dcb77104 load2">
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+      </view>
+      <view class="_view data-v-dcb77104 load3">
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-dcb77104" style=" {{('background:' + color + ';')}}"></view>
+      </view>
+    </view>
+    <text class="_text data-v-dcb77104 loading-text" style=" {{('color:' + color + ';')}}">{{loadingType === 0 ? contentText.contentdown : (loadingType === 1 ? contentText.contentrefresh : contentText.contentnomore)}}</text>
+  </view>
+</template>

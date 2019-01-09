@@ -1,0 +1,24 @@
+@import "../../common/vendor.wxss";
+
+.uni-card {
+  box-shadow: none;
+}
+.uni-list:after {
+  height: 0;
+}
+.uni-list:before {
+  height: 0;
+}
+.content {
+  text-align: center;
+  height: 400rpx;
+}
+.logo {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 200rpx;
+}
+.title {
+  font-size: 36rpx;
+  color: #333333;
+}

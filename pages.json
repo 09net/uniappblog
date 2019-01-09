@@ -1,0 +1,77 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		},{
+			"path": "pages/index/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},{
+			"path": "pages/myweb/index",
+			"style": {
+				"navigationBarTitleText": "简单网站"
+			}
+		},{
+			"path": "pages/myweb/add",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		}
+		,{
+			"path": "pages/myweb/t",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		},{
+			"path": "pages/myweb/e",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		},{
+			"path": "pages/myweb/s",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		},{
+			"path": "pages/myweb/fav",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		}
+		,{
+			"path": "pages/myweb/f",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		}
+		,{
+			"path": "pages/user/f",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		}
+		,{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		}
+		,{
+			"path": "pages/user/web",
+			"style": {
+				"navigationBarTitleText": "ysv8.com"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

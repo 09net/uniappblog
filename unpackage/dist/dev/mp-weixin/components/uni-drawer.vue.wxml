@@ -1,0 +1,32 @@
+<template name="d788f5b8">
+  <view class="_view data-v-82d0e782 uni-drawer {{[visible ? 'uni-drawer-visible' : '', rightMode ? 'uni-drawer-right' : '']}}" catchtouchmove="{{catchtouchmove}}">
+    <view wx:if="{{showMask}}" class="_view data-v-82d0e782 uni-drawer-mask" bindtap="handleProxy" data-eventid="{{'2Dq-0'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-82d0e782 uni-drawer-content">
+      <view style="padding:30rpx;" class="_view data-v-82d0e782">
+        <view class="_view data-v-82d0e782 uni-common-mt">
+          <button class="_button data-v-82d0e782 button" type="warn" size="mini" bindtap="handleProxy" data-eventid="{{'7p9-1'}}" data-comkey="{{$k}}">关闭</button>
+        </view>
+        <view class="_view data-v-82d0e782 uni-list uni-common-mt">
+          <view class="_view data-v-82d0e782 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-82d0e782 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'dgb-2'}}" data-comkey="{{$k}}"> 个人中心 </view>
+          </view>
+          <view class="_view data-v-82d0e782 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-82d0e782 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'hLi-3'}}" data-comkey="{{$k}}"> 发帖 </view>
+          </view>
+          <view class="_view data-v-82d0e782 uni-list-cell" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-82d0e782 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'iLd-4'}}" data-comkey="{{$k}}"> 栏目大全 </view>
+          </view>
+          <view class="_view data-v-82d0e782 uni-list-cell" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-82d0e782 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'Jfu-5'}}" data-comkey="{{$k}}"> 收藏 </view>
+          </view>
+          <view class="_view data-v-82d0e782 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-82d0e782 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'7FT-6'}}" data-comkey="{{$k}}"> 历史 </view>
+          </view>
+          <view class="_view data-v-82d0e782 uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+            <view class="_view data-v-82d0e782 uni-list-cell-navigate uni-navigate-right" bindtap="handleProxy" data-eventid="{{'BPB-7'}}" data-comkey="{{$k}}"> 搜索 </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

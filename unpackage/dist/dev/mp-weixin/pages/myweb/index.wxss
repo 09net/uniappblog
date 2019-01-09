@@ -1,0 +1,32 @@
+@import "../../common/vendor.wxss";
+
+.tar_active {
+  color: rgb(0, 122, 255);
+}
+.tar_no {
+  color: rgb(122, 126, 131);
+}
+.uni-tabbar__icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.uni-tabbar__icon image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.foot {
+  padding-top: 10rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  z-index: 999;
+  text-align: center;
+}
+.swiper-box {
+  padding-bottom: 80rpx;
+}

@@ -1,0 +1,11 @@
+<template name="04a3c6d8">
+  <view class="_view data-v-7c04d6ec">
+    <view class="_view data-v-7c04d6ec list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'JSH-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7c04d6ec media-list" wx:if="{{data.filename}}">
+        <view class="_view data-v-7c04d6ec">
+          <text class="_text data-v-7c04d6ec uni-icon uni-icon-download" style="color:#FF0000;font-size:40rpx">{{data.filename}}.{{data.ext}}(G400)</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

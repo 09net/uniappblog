@@ -1,0 +1,16 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/ysv8/bbslist.vue.wxml" />
+<import src="/components/ysv8/ebooklist.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<template name="1cdcc657">
+  <view class="_view data-v-53e75d39">
+    <template color="#333333" background-color="#FFFFFF" fixed="false" data="{{...$root['0'], ...$root[$kk+'3Tc-0'],$root}}" is="149ba074"></template>
+    <view class="_view data-v-53e75d39 list-view">
+      <block wx:key="index2" key="{{index2}}" wx:for="{{data}}" wx:for-index="index2" wx:for-item="newsitem">
+        <template wx:if="{{fsize!='e'}}" bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'spL-1-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'SPj-2-'+index2],$root}}" is="0a54cb72"></template>
+        <template wx:else bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'x8m-0-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'4DI-1-'+index2],$root}}" is="71a91462"></template>
+      </block>
+      <template data="{{...$root['0'], ...$root[$kk+'AlH-3'],$root}}" is="26456879"></template>
+    </view>
+  </view>
+</template>
